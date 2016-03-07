@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	background:#E7E7E7 url(../images/bbg_02.jpg) repeat-x  ;
+	font-family:Verdana;
+	}
+	
+	
+.clr{
+	clear:both;
+	}	
+.container{
+	background:url(../images/bg_02.jpg) no-repeat;
+	width:955px;
+	height:auto;
+	min-height:700px;
+	margin:auto;
+	overflow:hidden;
+	}
+	
+	
+.header{
+	
+	width:955px;
+	height:180px;
+	}
+	
+.logo{
+	margin:10px 30px 0 0;
+	float:right;
+	}
+	
+
+
+.all-nav{
+	margin:81px 0 0 30px;
+	width:577px;
+	height:99px;
+	float:left;
+	}
+	
+.top-nav{
+	width:310px;
+	background:url(../images/cc_05.jpg) repeat-x;
+	height:35px;
+	}
+	.top-nav ul{
+		padding:0;
+		margin:0;
+		list-style:none;
+		}
+	.top-nav ul li{
+		font-size:12px;
+		color:#E67B02;
+		float:left;
+		background:url(../images/corn_08.jpg) no-repeat right;
+		padding:2px 15px 5px 10px;
+		margin:12px 0 0 0;
+		text-shadow: #fff 1px 0px 0px;
+
+		}
+	.top-nav ul li a{
+		color:#E67B02;
+		text-decoration:none;
+		}
+		.top-nav ul li a:hover{
+		text-shadow: #ced778 1px 0px 0px;
+		}
+	#last{background:none;}
+	.top-cor1{
+		width:11px;
+		height:35px;
+		background:url(../images/corn_03.jpg) no-repeat;
+		float:left;
+		}
+	.top-cor2{
+		width:61px;
+		height:35px;
+		background:url(../images/corn_05.jpg) no-repeat;
+		float:right;
+		}
+.main-nav{
+	width:600px;
+	height:64px;
+	background:url(../images/nav-b_07.jpg) no-repeat;
+	}		
+		.main-nav ul{
+			list-style:none;
+			padding:0;
+			margin:0;
+			}
+		.main-nav ul li{
+			text-align:center;
+			float:left;
+			padding:20px 0;
+			width:110px;
+			color:#656565;
+			text-shadow: #fff 1px 0px 0px;
+			
+			}
+			.main-nav ul li a{
+				color:#656565;
+				text-decoration:none;
+				font-size:14px;
+				}
+		.main-nav ul li:hover{
+			
+			padding:20px 0;
+			background:url(../images/Untitled-1_03.png) 50% no-repeat;
+			}
+			
+		
+.banner{
+	width:955px;
+	height:278px;
+	}
+	
+	
+.element{
+	width:930px;
+	height:auto;
+	min-height:100px;
+	margin: 0 0 0 20px;
+	padding-bottom:10px;
+	overflow:hidden;
+	}	
+.element h2{
+			width:910px;
+			height:20px;
+			background:#fff;
+			padding:5px 10px;
+			color:#3a863c;
+			font-size:18px;
+			margin:0;
+			font-weight:lighter;	
+	}	
+	
+	.element1{
+		width:450px;
+		height:195px;
+		float:left;
+		margin:0 0 0 25px;
+		}
+		.element1 h2{
+			width:425px;
+			height:20px;
+			background:#fff;
+			padding:5px 10px;
+			color:#3a863c;
+			font-size:18px;
+			margin:0;
+			font-weight:lighter;
+			}
+		.element1 p{
+			margin:5px 0;
+			font-size:12px;
+			text-align:justify;
+			color:#7a7a7a;
+			}
+			
+			
+			
+.hot-product{
+	
+	width:295px;
+	height:200px;
+	float:left;
+	margin: 5px 5px 0 0;
+	background:#dcdcdc;
+	padding:15px 5px 5px 8px;
+	}
+	
+	
+.hot-product h3{
+	font-size:18px;
+	color:#e37800;
+	float:left;
+	margin:0;
+	font-weight:lighter;
+	width:140px;
+	}
+	.hot-product p{
+		width:148px;
+		height:152px;
+		font-size:12px;
+		text-align:justify;
+		color:#7a7a7a;
+		}
+	.hot-product img{
+		border:5px #fff solid;
+		float:right;
+		margin:0 10px 0 0;
+		}
+		.last-pro {
+			margin: 5px 0 0 0 !important;
+			padding:15px 0 5px 8px !important;
+			}
+			
+.hot-product-more{
+	width:61px;
+	height:22px;
+	float:left;
+	margin:0 5px;
+	background:url(../images/corn_39.jpg) no-repeat;
+	border:0;
+	cursor:pointer;
+	}
+	
+	
+	
+	
+	
+.footer{
+	
+	}
+	.footer ul{
+		padding:0;
+		margin:0;
+		list-style:none;
+		}
+	.footer ul li{
+		width:945px;
+		padding:15px 5px;
+		text-align:center;
+		}
+	.bottom-nav	{
+		font-size:14px;
+		color:#e68200;
+		margin:0 0 0 10px;
+		
+		}
+		.bottom-nav a{
+			text-decoration:none;
+			color:#e68200;
+			}
+			.bottom-txt {
+				font-weight:bold;
+				font-size:12px;
+				color:#7f7e7e;
+				}
+				
+				
+/*#page-wrap						{ background: white; width: 960px; margin: 0 auto; 
+								  padding: 50px 0; }
+
+#slider							{ background: url(../images/corn_25.jpg) no-repeat bottom right;
+
+height: 227px; overflow: hidden;
+								  position: relative; margin: 50px 0; }
+								  
+                                /* DEFAULT is for three panels in width, adjust as needed
+                                   This only matters if JS is OFF, otherwise JS sets this. */								  
+/*#mover							{ width: 2880px; position: relative; }
+
+.slide							{ padding: 0px 30px; width: 900px; float: left; position: relative; }
+.slide h1						{
+									font-family: Helvetica, Sans-Serif;
+									font-size:20px;
+									letter-spacing: -1px;
+									text-align:right;
+								  color: #ac0000; 
+								  
+								  }
+.slide p						{ color: #999; font-size: 12px; line-height: 22px; width: 300px; float:right; }
+.slide img						{ position: absolute; top: 20px; left: 400px; }
+#slider-stopper					{ position: absolute; top: 1px; right: 20px; background: #ac0000; color: white;
+								  padding: 3px 8px; font-size: 10px; text-transform: uppercase; z-index: 1000; }
+*/
+								  
+								  
+								  /* slider */
+.gallery { float:left; width:613px; height:249px; margin:20px 0 0 30px !important; margin:20px 0 0 25px; }
+#slider { margin:0; padding:0; list-style:none; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:613px; height:249px; overflow:hidden; }
+p#controls { margin:0; position:relative; }
+#prevBtn { display:block; margin:0; overflow:hidden; width:38px; height:38px; position:absolute; left:-54px; top:-190px; }
+#nextBtn { display:block; margin:0; overflow:hidden; width:38px; height:38px; position:absolute; left: 848px; top:-190px; }
+#prevBtn a { display:block; width:38px; height:38px; background: url(images/l_arrow.gif) no-repeat 0 0; }
+#nextBtn a { display:block; width:38px; height:38px; background: url(images/r_arrow.gif) no-repeat 0 0; }
+cufon {
+display:inline-block !important;
+font-size:1px !important;
+line-height:1px !important;
+position:relative !important;
+vertical-align:middle !important;
+}
+.header_text .div .left1 h2 {
+color:#439AB9;
+font:18px/1.3em Arial,Helvetica,sans-serif;
+margin:0;
+padding:0 0 10px;
+}
+
+
+/*header_text*/
+.header_text { margin:0 auto; padding:0; width:960px;}
+.header_text .div .left1 { float:right; background:url(../images/corn_25.jpg) right bottom no-repeat; width:225px; padding:20px 30px 40px 30px; margin:30px 10px 0 0 !important; margin:66px 47px 0 0; height:182px; }
+.header_text .div .left1 img { margin:10px 10px 10px 0; padding:0;}
+.header_text .div .left1 h2 {font:bold 23px verdana, Helvetica, sans-serif; color:#ff9306; padding:0 0 10px 0; margin:0; line-height:1.3em;}
+.header_text p { font:normal 12px Arial, Helvetica, sans-serif; color:#818181; padding:0 0; margin:0; line-height:1.5em;}
+/* header_text2 */
+.header_text2 { margin:0 auto; padding:0; width:960px;}
+.header_text2 h2 { width:300px; float:left; font: bold 36px Arial, Helvetica, sans-serif; color:#498eae; margin:0; padding:36px 0 0 15px;}
+#active{
+	padding:20px 0;
+			background:url(../images/Untitled-1_03.png) 50% no-repeat;
+	}
